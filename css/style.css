@@ -12,11 +12,14 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
-
 .head .logo,
 .head .nav-link {
   color: var(--secondary-text-color);
   text-decoration: none;
+}
+.site-nav .active {
+  color: var(--accent-text-color);
+  text-decoration-line: underline;
 }
 .head a {
   color: inherit;
